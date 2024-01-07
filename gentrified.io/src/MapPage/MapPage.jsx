@@ -1,8 +1,10 @@
 import Map from "./map/map";
+import BoroughChart from "./charts/BoroughChart";
 import TimeFrameForm from "./map/TimeFrameForm";
-import "./map.css";
+import "./leaflet.css";
 import { useEffect, useState } from "react";
- const MapPage = () => {
+import { DotChart } from "./charts/DotChart";
+const MapPage = () => {
   const [startYear, setStartYear] = useState("2010");
   const [endYear, setEndYear] = useState("2015");
   const handleStartChange = (event) => {
@@ -13,20 +15,24 @@ import { useEffect, useState } from "react";
     setEndYear(event.target.value);
   };
 
-  //   useEffect(() => {
-  //    console.log([startYear,endYear])
-  //  },[startYear,endYear])
-
   return (
     <>
+      <Map startYear={startYear} endYear={endYear}></Map>
       <TimeFrameForm
         startYear={startYear}
         setStartYear={setStartYear}
         endYear={endYear}
         setEndYear={setEndYear}></TimeFrameForm>
-      <Map startYear={startYear} endYear={endYear}></Map>
+      <div className="flex flex-col gap-56 mb-[14rem]">
+      <div className="mt-[14rem] ">
+        <BoroughChart startYear={startYear} endYear={endYear} />
+      </div>
+      <div>
+        <DotChart startYear={startYear} endYear={endYear} />
+        </div>
+      </div>
     </>
   );
 };
 
-export default MapPage
+export default MapPage;

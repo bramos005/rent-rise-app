@@ -1,0 +1,40 @@
+/* Map Settings */
+
+
+.leaflet-container {
+    height:70vh;
+    width: 80vw;
+    border-radius: 3rem;
+  
+}  
+
+.leaflet-container *:focus {
+  outline: none;
+}
+
+
+
+
+.leaflet-tooltip {
+  background-color: #333; 
+  color: white; 
+  border: 1px solid #222; 
+  border-radius: 4px; 
+  padding: 6px; 
+  font-size: 14px; 
+  line-height: 1.4; 
+  opacity: 0.9; 
+}
+@media (min-width: 1000){
+  
+}
+
+@media (max-width:1000px ){
+  .leaflet-container {
+    height: 40vh;
+    width: 80vw;
+    border-radius: 3rem;
+  
+
+}  
+}
