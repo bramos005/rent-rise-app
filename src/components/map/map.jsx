@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, Tooltip } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Circlemarkers from "./circle-markers";
-import NavBar from "../../NavBar/NavBar";
+import NavBar from "../NavBar/NavBar";
 import Aos from "aos";
 
 const Map = ({ startYear, endYear }) => {

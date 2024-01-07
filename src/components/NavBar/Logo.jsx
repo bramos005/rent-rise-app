@@ -1,4 +1,4 @@
-import logoPic from "./logo.png";
+
 
 const Logo = () => {
   return (

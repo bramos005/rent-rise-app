@@ -1,4 +1,4 @@
-import NavBar from "../NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const HomePage = () => {

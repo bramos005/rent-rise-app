@@ -1,9 +1,9 @@
-import Map from "./map/map";
-import BoroughChart from "./charts/BoroughChart";
-import TimeFrameForm from "./map/TimeFrameForm";
+import Map from "../../components/map/map";
+import BoroughChart from "../../components/charts/BoroughChart";
+import TimeFrameForm from "../../components/map/TimeFrameForm"
 import "./leaflet.css";
-import { useEffect, useState } from "react";
-import { DotChart } from "./charts/DotChart";
+import {  useState } from "react";
+import {DotChart} from "../../components/charts/DotChart"
 const MapPage = () => {
   const [startYear, setStartYear] = useState("2010");
   const [endYear, setEndYear] = useState("2015");
