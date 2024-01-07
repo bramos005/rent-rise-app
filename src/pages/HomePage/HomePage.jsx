@@ -60,9 +60,9 @@ const HomePage = () => {
         </div>
       </div>
       <div className="homepage bg-white">
-        <div className="flex flex-col items-center justify-center my-[10rem]">
+        <div className="flex flex-col items-center justify-center mt-40 mb-20">
           <div className="text-center mb-[5rem]">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-black mb-6">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-black mb-5">
               Explore More About NYC Real Estate
             </h2>
             <p className="text-lg md:text-xl text-black mb-6 max-w-xl mx-auto">
