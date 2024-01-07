@@ -72,12 +72,15 @@ const HomePage = () => {
             </p>
             <div className="space-y-4">
               <a
+                target="_blank" rel="noopener noreferrer"
                 href="https://www.brickunderground.com"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition duration-500 ease-in-out">
                 NYC Real Estate Forecast for 2024
               </a>
               <br />
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.streeteasy.com"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition duration-500 ease-in-out">
                 StreetEasy's 2024 Housing Market Predictions
