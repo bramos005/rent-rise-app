@@ -16,6 +16,7 @@ const MapPage = () => {
   };
 
   return (
+    
     <>
       <Map startYear={startYear} endYear={endYear}></Map>
       <TimeFrameForm
