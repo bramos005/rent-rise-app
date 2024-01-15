@@ -12,7 +12,7 @@ const Map = ({ startYear, endYear }) => {
       <NavBar></NavBar>
       
       <div data-aos="fade-left" className="flex  flex-col items-center justify-center mt-20 ">
-        <h1 className="mb-5 text-2xl text-black font-semibold">Gentrification Map</h1>
+        <h1 className="mb-5 text-2xl text-black font-semibold">Rent Rise Map</h1>
         <MapContainer center={[40.73061, -73.935242]} zoom={11}>
           <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <Circlemarkers
