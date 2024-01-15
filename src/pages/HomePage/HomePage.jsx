@@ -34,14 +34,6 @@ const HomePage = () => {
                 alt="chart"
               />
 
-              {/* <div className=" hidden border-4 absolute w-[15rem] h-[12rem] bg-white rounded-md p-3 right-[-10%] shadow-2xl shadow-gray-700 lg:block lg:w-[25rem] lg:h-[15rem]  ">
-                <p className="leading-[2.5rem]  text-center text-black  ">
-                  Dive deep into the dynamics of New York City's rental market.
-                  Discover trends, analyze patterns, and stay informed with Rent
-                  Rise. Your comprehensive guide to understanding rent
-                  fluctuations in the heart of the Big Apple.
-                </p>
-              </div> */}
               <div className=" flex flex-col items-center md:hidden">
                 <p className=" block leading-[2.5rem] w-[70%] mt-10 font-semibold text-center self-center text-black lg:hidden ">
                   Dive deep into the dynamics of New York City's rental market.
@@ -49,9 +41,11 @@ const HomePage = () => {
                   Rise. Your comprehensive guide to understanding rent
                   fluctuations in the heart of the Big Apple.
                 </p>
-                <button className="inline-block mt-5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition duration-500 ease-in-out">
-                  Get Started
-                </button>
+                <Link to="/map">
+                  <button className="inline-block mt-5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition duration-500 ease-in-out">
+                    Get Started
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -61,7 +55,7 @@ const HomePage = () => {
             <h2 className="font-extrabold text-center">
               Understanding Gentrification in NYC
             </h2>
-            <p className="leading-10 text-center text-lg font-semibold">
+            <p className=" leading-10 text-center  font-semibold">
               Through careful analysis of extensive StreetEasy data, we've
               extracted compelling insights into gentrification in NYC. See at a
               glance where the most significant changes are happening. Our
@@ -112,7 +106,7 @@ const HomePage = () => {
       </div>
       <div className="text-xs m-5">
         <p>illustration credits: </p>
-        <a  className="text-blue-700" href="https://storyset.com/travel">
+        <a className="text-blue-700" href="https://storyset.com/travel">
           Travel illustrations by Storyset
         </a>
       </div>
