@@ -53,7 +53,7 @@ const HomePage = () => {
         <div className="flex text-white justify-center items-center flex-wrap gap-[5rem] mt-[10rem] pt-[10rem] pb-[10rem] bg-[#245EE7] ">
           <div className="flex flex-col gap-4  w-[40rem]">
             <h2 className="font-extrabold text-center">
-              Understanding Gentrification in NYC
+              Understanding rent rise in NYC
             </h2>
             <p className=" leading-10 text-center  font-semibold">
               Through careful analysis of extensive StreetEasy data, we've
