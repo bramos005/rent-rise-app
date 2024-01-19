@@ -57,7 +57,7 @@ const HomePage = () => {
             </h2>
             <p className=" leading-10 text-center  font-semibold">
               Through careful analysis of extensive StreetEasy data, we've
-              extracted compelling insights into gentrification in NYC. See at a
+              extracted compelling insights into rent rises in NYC. See at a
               glance where the most significant changes are happening. Our
               visualizations bring data to life, highlighting key trends and
               providing a clear picture of the city's transformation.
